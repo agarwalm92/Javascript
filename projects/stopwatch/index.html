@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="stopwatch.js" type="text/javascript"></script>
+    <title>Stopwatch</title>
+</head>
+<body>
+    <h4>Stopwatch</h4>
+    <div class="row">
+        <span>
+        <span id="hr">00</span>
+        <span>:</span>
+        <span id="min">00</span>
+        <span>:</span>
+        <span id="sec">00</span>
+        <span>:</span>
+        <span id="milisec">00</span>
+        </span>
+        <br/>
+        <div>
+            <input type="button" onclick="reset()" value="Rest"/>
+            <input type="button" onclick="startwatch()" value="Start"/>
+            <input type="button" onclick="stopwatch()" value="Stop"/>
+        </div>
+    </div>
+</body>
+</html>
